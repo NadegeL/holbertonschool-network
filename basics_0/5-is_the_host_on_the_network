@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #ping: send ICMP ECHO_REQUEST to network hosts.
 
 if [ -z "$1" ]; then
