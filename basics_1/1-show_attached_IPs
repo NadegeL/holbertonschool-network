@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays all active IPv4 IPs on the machine it’s executed on
-#filter only the lines that contain "inet " and then print the second field of each line
 
 ip -4 addr
