@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#netstat: socket listening; -a: all sockets; -n: numeric; -p: program name.
+#netstat: socket listening; -l: display listening sockets;
+#-p: display PID/Program name for sockets
 
-echo "listening ports and their programs"
-sudo netstat -anp tcp | grep LISTEN
+netstat -l -p
